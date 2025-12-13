@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Upload, Sparkles, RefreshCw, Save, CheckCircle, Facebook, Instagram, Video, Linkedin, Youtube, Link2, Shield, X as XIcon, Edit2 } from 'lucide-react';
 import { COLORS, BUSINESS_CATEGORIES, PLACEHOLDER_IMAGE } from '../constants';
 import { generateOptimizedKeywords } from '../services/geminiService';
-
+import placeholderImg from '../assets/placeholder.png';
 // X (Twitter) Logo
 const XLogo = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -27,7 +27,7 @@ const BusinessProfile: React.FC = () => {
   const [businessName, setBusinessName] = useState('Prime Properties Beach Resort & Spa');
   const [categories, setCategories] = useState<string[]>(['Beach Resort']);
   const [description, setDescription] = useState('Experience the epitome of luxury at Prime Properties. Nestled on a pristine white sand beach, our resort features overwater villas, a world-class spa, and breathtaking ocean views. Perfect for romantic getaways and luxury seekers looking for a tropical paradise.');
-  const [imagePreview, setImagePreview] = useState<string | null>(PLACEHOLDER_IMAGE);
+  const [imagePreview, setImagePreview] = useState<string | null>(placeholderImg);
   const [keywords, setKeywords] = useState<string[]>(['Luxury Resort', 'Beachfront', 'Spa Retreat', 'Maldives Style']);
   
   // Edit Modal State
