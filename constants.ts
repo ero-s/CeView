@@ -210,7 +210,7 @@ export const MOCK_NOTIFICATIONS: Notification[] = [
   }
 ];
 
-export const PLACEHOLDER_IMAGE = "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=3432&auto=format&fit=crop";
+export const PLACEHOLDER_IMAGE = "assets/placeholder.png";
 
 // Dashboard Data (Reflecting the South Korea / Wellness trend seen in dashboard cards)
 export const MOCK_KEYWORD_DATA: KeywordTrend[] = [
