@@ -147,7 +147,7 @@ const Dashboard: React.FC = () => {
           </div>
           <div className="text-right">
              <span className="text-xs font-medium text-slate-400 uppercase tracking-wide">Data Source</span>
-             <p className="text-sm font-bold text-[#007892]">Google Trends API through PyTrends</p>
+             <p className="text-sm font-bold text-[#007892]">Google Trends API or PyTrends</p>
           </div>
         </div>
         

@@ -62,7 +62,7 @@ const LandingPage: React.FC = () => {
           <div className="flex gap-2">
              <span className="px-3 py-1 rounded-full text-xs font-medium flex items-center gap-1 text-[#506E53] bg-[#FDFBF7] border border-[#506E53]">
                <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: COLORS.GREEN }}></div>
-               Google Trends API via PyTrends
+               Google Trends API or PyTrends
              </span>
           </div>
         </div>
@@ -176,7 +176,7 @@ const LandingPage: React.FC = () => {
             </div>
             <div className="text-right">
                <span className="text-xs font-medium text-slate-400 uppercase tracking-wide">Data Source</span>
-               <p className="text-sm font-bold text-[#007892]">Google Trends API</p>
+               <p className="text-sm font-bold text-[#007892]">Google Trends API or PyTrends</p>
             </div>
           </div>
           
